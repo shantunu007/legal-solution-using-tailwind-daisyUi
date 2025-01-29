@@ -32,6 +32,9 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+
+
+        
     </style>
     
     <script>
@@ -104,7 +107,7 @@
                 <div class="w-full lg:w-[668px] text-center mx-auto">
                 <h1 class="mb-5 text-5xl font-bold font-eb-garamond text-white text-center lg:text-7xl">We Provide Effective Legal Solutions</h1>
                 <p class="mb-8 text-[#E7E7E7] text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <div class="space-y-2 w-full">
+                <div class="space-y-2 w-full lg:space-x-2">
                     <input class="py-2 text-base lg:py-4 rounded-lg lg:text-lg pl-4 lg:w-[500px]" type="text" placeholder="Search Your Services">
                     <button class="py-2 text-sm lg:py-4 px-10 rounded-lg bg-btn-primary border-0 text-white font-semibold lg:text-xl">Search</button>
                 </div>
@@ -124,7 +127,6 @@
         </div>
         
         <!-- Cards Section -->
-
         <div class="grid grid-cols-1 mt-4 lg:mt-16 lg:grid-cols-3">
             <!-- Single Card 1 -->
             <div class="card bg-base-100 w-full py-16 px-10 rounded-none border-b-2">
@@ -175,7 +177,7 @@
                 </div>
             </div> 
             <!-- Single Card 4 -->
-            <div class="card bg-base-100 w-full py-16 px-10  rounded-none border-b-2">
+            <div class="card bg-base-100 w-full py-16 px-10  rounded-none">
                 <figure class="px-10 pt-10">
                   <img
                     src="./images/education.png" alt="Shoes" />
@@ -191,7 +193,7 @@
                 </div>
             </div> 
             <!-- Single Card 5 -->
-            <div class="card bg-base-100 w-full py-16 px-10  rounded-none border-b-2 border-l-2 border-r-2">
+            <div class="card bg-base-100 w-full py-16 px-10  rounded-none border-l-2 border-r-2">
                 <figure class="px-10 pt-10">
                   <img
                     src="./images/divorce.png" alt="Shoes" />
@@ -207,7 +209,7 @@
                 </div>
             </div> 
             <!-- Single Card 6 -->
-            <div class="card bg-base-100 w-full py-16 px-10  rounded-none border-b-2">
+            <div class="card bg-base-100 w-full py-16 px-10  rounded-none">
                 <figure class="px-10 pt-10">
                   <img
                     src="./images/tax.png" alt="Shoes" />
@@ -221,8 +223,113 @@
                     <i class="text-white fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
-            </div> 
+            </div>
         </div>
+
+        <!-- Client Review -->
+        <div class="text-center space-y-6 my-32">
+          <h1 class="font-eb-garamond font-extrabold text-2xl lg:text-4xl">What Our Client Say</h1>
+          <p class="text-[#707070] text-sm lg:text-base">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+        </div> 
+
+        <!-- Client Slider -->
+        <div class="carousel w-full">
+
+          <!-- Slide 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="./images/banner.png"
+              class="w-full h-[500px] rounded-lg" />
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-80 rounded-lg"></div>  
+            <div class="absolute left-[15%] right-[15%] top-5 lg:translate-y-14 text-center text-white">
+              <img class="mx-auto" src="./images/profile.png" alt="">
+              <h4 class="font-eb-garamond font-extrabold lg:text-3xl lg:mt-6">Awlad Hossain</h4>
+              <p class="text-base">UIX Designer</p>
+              <p class="text-base leading-7 mt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+
+              <div class="absolute left-5 right-5 -bottom-4 lg:-bottom-20 flex transform gap-2 justify-center">
+                <a href="#slide4" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+                <a href="#slide1" class="bg-white border-none text-white w-10 h-1"></a>
+                <a href="#slide2" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+              </div>
+            </div>   
+            <div class="absolute left-2 right-2 lg:left-5 lg:right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn bg-transparent text-white border-none hover:bg-transparent">❮</a>
+              <a href="#slide2" class="btn bg-transparent text-white border-none hover:bg-transparent">❯</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full review">
+            <img
+              src="./images/slider-1.jpg"
+              class="w-full h-[500px] rounded-lg" />
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-80 rounded-lg"></div>   
+            <div class="absolute left-[15%] right-[15%] top-5 lg:translate-y-14 text-center text-white">
+              <img class="mx-auto" src="./images/profile.png" alt="">
+              <h4 class="font-eb-garamond font-extrabold lg:text-3xl lg:mt-6">Awlad Hossain</h4>
+              <p class="text-base">UIX Designer</p>
+              <p class="text-base leading-7 mt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+
+              <div class="absolute left-5 right-5 -bottom-4 lg:-bottom-20 flex transform gap-2 justify-center">
+                <a href="#slide1" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+                <a href="#slide2" class="bg-white border-none text-white w-10 h-1"></a>
+                <a href="#slide3" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+              </div>
+            </div>   
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn bg-transparent text-white border-none hover:bg-transparent">❮</a>
+              <a href="#slide3" class="btn bg-transparent text-white border-none hover:bg-transparent">❯</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full review">
+            <img
+              src="./images/slider-2.jpg"
+              class="w-full h-[500px] rounded-lg" />
+              <div class="absolute top-0 left-0 w-full h-full bg-black opacity-80 rounded-lg"></div>    
+            <div class="absolute left-[15%] right-[15%] top-5 lg:translate-y-14 text-center text-white">
+              <img class="mx-auto" src="./images/profile.png" alt="">
+              <h4 class="font-eb-garamond font-extrabold lg:text-3xl lg:mt-6">Awlad Hossain</h4>
+              <p class="text-base">UIX Designer</p>
+              <p class="text-base leading-7 mt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+
+              <div class="absolute left-5 right-5 -bottom-4 lg:-bottom-20 flex transform gap-2 justify-center">
+                <a href="#slide2" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+                <a href="#slide3" class="bg-white border-none text-white w-10 h-1"></a>
+                <a href="#slide4" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+              </div>
+            </div>   
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn bg-transparent text-white border-none hover:bg-transparent">❮</a>
+              <a href="#slide4" class="btn bg-transparent text-white border-none hover:bg-transparent">❯</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div id="slide4" class="carousel-item relative w-full review">
+            <img
+              src="./images/slider-3.jpg"
+              class="w-full h-[500px] rounded-lg" />
+              <div class="absolute top-0 left-0 w-full h-full bg-black opacity-80 rounded-lg"></div>    
+            <div class="absolute left-[15%] right-[15%] top-5 lg:translate-y-14 text-center text-white">
+              <img class="mx-auto" src="./images/profile.png" alt="">
+              <h4 class="font-eb-garamond font-extrabold lg:text-3xl lg:mt-6">Awlad Hossain</h4>
+              <p class="text-base">UIX Designer</p>
+              <p class="text-base leading-7 mt-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+
+              <div class="absolute left-5 right-5 -bottom-4 lg:-bottom-20 flex transform gap-2 justify-center">
+                <a href="#slide3" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+                <a href="#slide4" class="bg-white border-none text-white w-10 h-1"></a>
+                <a href="#slide1" class="bg-[#707070] border-none text-white w-10 h-1"></a>
+              </div>
+            </div>   
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn bg-transparent text-white border-none hover:bg-transparent">❮</a>
+              <a href="#slide1" class="btn bg-transparent text-white border-none hover:bg-transparent">❯</a>
+            </div>
+          </div>
     </main>
 
 
